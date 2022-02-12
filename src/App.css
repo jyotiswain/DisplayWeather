@@ -1,0 +1,104 @@
+html, body, #root {
+    font: 0.9rem sans-serif;
+    background: papayawhip;
+    color: firebrick;
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.search {
+    outline: none;
+    padding: 20px 7%;
+    border-radius: 50px;
+    border: lavender;
+    border-style: groove;
+    margin-bottom: 3%;
+    margin-top: 80px;
+    background: ivory;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    padding: 40px 8%;
+    border-radius: 20px;
+    background: ivory;
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+p {
+
+    margin-top: 30px;
+    margin-left: 0px;
+    color: firebrick;
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.city-temp {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: slategray;
+    text-align: center;
+}
+
+.city sup {
+    font-size: 0.45em;
+}
+
+.city-name {
+    font-size: 4em;
+    
+}
+
+.city-name sup {
+
+    padding: 0.2em 0.8em;
+    margin-left: 0.22em;
+    border-radius: 50px;
+    color: firebrick;
+    background: burlywood;
+}
+
+.city-icon {
+    margin-top: 15px;
+    margin-right: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width: 100px) {
+    .search {
+        padding: 20px 15%;
+    }
+
+    .city {
+        padding: 40px 20%;
+    }
+}
